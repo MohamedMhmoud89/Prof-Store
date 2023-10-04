@@ -1,0 +1,235 @@
+@font-face {
+  font-family: logo;
+  src: url(../fonts/Somatic-Rounded.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: secFont;
+  src: url(../fonts/Proxima-Nova.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: thirdFont;
+  src: url(../fonts/Cairo.ttf);
+  font-weight: 500;
+}
+
+.small-photo {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.card {
+  padding: 5px;
+}
+
+.small-card {
+  padding: 2px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.title-text {
+  font-family: secFont;
+  font-weight: bold;
+  display: block;
+  font-size: 40px;
+}
+
+
+
+
+
+.group-text {
+  font-family: secFont;
+  font-weight: bold;
+  display: block;
+  font-size: 25px;
+}
+
+.price-group {
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.price-text {
+  font-family: secFont;
+  font-weight: bold;
+  font-size: 15px;
+  color: #de3b35;
+  margin-right: 30px;
+}
+
+.prod-desc {
+  font-family: thirdFont;
+  text-align: end;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #707070;
+}
+
+.detil-hr {
+  text-align: end;
+  margin-right: 4%;
+  font-family: thirdFont;
+  font-weight: bold;
+  color: #707070;
+  font-size: 20px;
+}
+
+.text-add {
+  position: relative;
+  top: 2px;
+  color: white;
+  font-family: thirdFont;
+}
+
+.contact-all {
+  padding-top: 30px;
+}
+
+.add-cart {
+  box-shadow: 0px 0px 4px 0px #0000004f;
+  background-color: #1492e6;
+  border-style: solid;
+  border-color: white;
+  font-family: thirdFont;
+  font-weight: bold;
+  padding: 2px 10px;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  margin-left: 68.7%;
+  margin-top: 5%;
+  width: 30%;
+  height: 36px;
+}
+
+.cart-icon {
+  margin-right: 5px;
+  position: relative;
+  right: 10px;
+}
+
+.cus-form {
+  display: block;
+  width: 100%;
+  margin-left: 0rem;
+  height: calc(1.5715em + 0.875rem + 2px);
+  padding: 0.4375rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5715;
+  color: #707070;
+  background-color: #f6f6f6;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  -moz-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -ms-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.margin-col {
+  margin-left: 12%;
+}
+
+.detials-prod {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-disc {
+  text-align: start;
+  margin-right: 30px;
+  font-family: thirdFont;
+  font-weight: bold;
+}
+
+.desc-prod {
+  text-align: start;
+  font-family: thirdFont;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.desc-prod li {
+  margin-bottom: 10px;
+}
+
+.pos-style {
+  margin-top: 40px;
+  margin-right: 43.5%;
+  margin-left: 43.5%;
+}
+
+.nav-hr {
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  .col-md-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+  }
+  .col-md-3 img {
+    width: 100%;
+  }
+  .cus-size .col-xl-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .cus-size .col-xl-3 img {
+    width: 100%;
+  }
+  .margin-col {
+    margin-left: 0px;
+  }
+  .nav-hr {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .pos-style {
+    margin-top: 40px;
+    margin-right: 12%;
+    margin-left: 5%;
+  }
+  .add-cart {
+    border-style: solid;
+    font-family: thirdFont;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-width: 1.2px;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    margin-left: 25%;
+    margin-right: 50%;
+    margin-top: 5%;
+    width: 50%;
+  }
+}

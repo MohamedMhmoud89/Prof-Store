@@ -1,0 +1,220 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/ae_AlMothnna_bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: secFont;
+    src: url(../fonts/GE-MB-MB-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url(../fonts/bahnschrift.ttf);
+    font-weight: 500;
+}
+
+.card-padd{
+    padding: 20px;
+}
+
+.custom-card-padd{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.span-head{
+    color: #1492E6;
+    font-family: myFirstFont;
+    font-size: 20px;
+    direction: rtl;
+    text-align: start;
+    width: fit-content;
+}
+
+.custom-form {
+    text-align: center;
+    font-family: thirdFont;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    margin: 0px;
+    width: fit-content;
+    height: calc(1.5715em + .875rem + 2px);
+    padding: .4375rem .875rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5715;
+    color: #707070;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.search-button{
+    margin-top: 5px;
+    width: 80px;
+    border-color: #1492E6;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.search-button span{
+    color: #1492E6;
+    font-family: secFont;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-group-text{
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-family: secFont;
+    color: #707070;
+}
+
+th{
+    font-family: thirdFont;
+}
+
+tr{
+    font-family: thirdFont;
+    border-color: white;
+    border-style: solid;
+}
+
+tr.done{
+    background-color: #D9F6CE;
+
+}
+
+tr.wait{
+    background-color: #F6CECE;
+}
+
+.applyBtn{
+    font-family: thirdFont;
+    color: #1492E6;
+    border-color: #1492E6;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+}
+
+.input-group{
+    direction: rtl;
+}
+
+.daterangepicker{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.cancelBtn{
+    font-family: thirdFont;
+    color: #FF6767;
+    border-color: #FF6767;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+}
+
+.table{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.table th{
+    font-family: secFont;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+} 
+
+.table tr{
+    text-align: center;
+    font-family: secFont;
+    font-size: 13px;
+}
+
+td.num{
+    font-family: thirdFont;
+    font-weight: lighter;
+}
+
+.more-info{
+    background-color: transparent;
+    border-color: #707070;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.more-info span{
+    font-family: secFont;
+}
+.custom-form-control{
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 20px;
+}
+
+.rtl{
+    direction: rtl;
+}
+
+.search-but{
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    bottom: 3px;
+    right: 5px;
+}
+
+@media (max-width: 576px) { 
+    .more-info{ 
+        margin-left: 36%;
+        margin-right: 36%;
+    }
+    .custom-form-control{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 20px;
+    }
+
+}
